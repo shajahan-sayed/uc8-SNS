@@ -4,7 +4,7 @@ variable "aws_region" {
   default     = "ap-southeast-2"
 }
 
-variable "sns_topic_name" {
+variable "my_topic" {
   description = "Name of the SNS topic"
   type        = string
   default     = "my-topic"
